@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+
+<body class="blue lighten-4">
+<!--header--->
+<nav>
+  <div class="nav-wrapper blue lighten-3">
+    <a href="#!" class="brand-logo">E-Commerce</a>
+    <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+    	<i class="material-icons mf">menu</i>
+    <ul class="right hide-on-med-and-down">
+    		<li><a href="index.html">Home <i class="material-icons left">account_balance</i></a></li>
+   			<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">USER<i class="material-icons right">arrow_drop_down</i></a>
+           	<ul id="dropdown1" class="dropdown-content">
+  			<li><a href="#!" data-activates="shop-category" data-constrainwidth="false">My Profile<i class="material-icons left">account_circle </i></a> </li>
+  			<li><a href="#!">order <i class="material-icons left">add_shopping_cart</i></a></li>
+  			<li class="divider"></li>
+  			<li><a href="#!">wishlist <i class="material-icons left">content_paste</i></a></li>
+  			<li><a href="#!">Rewards <i class="material-icons left">sentiment_very_satisfied</i></a></li>
+  			<li><a href="#!">Gift Cards <i class="material-icons left">card_giftcard</i></a></li>
+  			<li><a href="#!">Notification <i class="material-icons left">alarm_add</i></a></li>
+  			<li><a href="login.html">Login <i class="material-icons left">beenhere</i></a></li>
+  			<li><a href="signup.html">SignUp <i class="material-icons left">border_color</i></a></li>
+		</ul>
+       </li>
+<li><a class="dropdown-trigger" href="#!" data-target="dropdown3">More<i class="material-icons right">arrow_drop_down</i></a>
+           	<ul id="dropdown3" class="dropdown-content">
+  			<li><a href="#!">24x7 care<i class="material-icons left">assignment_ind</i></a></li>
+  			<li><a href="#!">Advertise <i class="material-icons left">call_merge</i></a></li>
+  			<li class="divider"></li>
+  			<li><a href="#!">Download<i class="material-icons left">file_download</i></a></li>
+		</ul>
+       </li>
+                   <li>
+                  <div class=" row">
+                <div class="col s12 " >
+                   <div class="row" id="topbarsearch">
+                      <div class="input-field col s6 s12 red-text ">
+                         <i class=" material-icons prefix">search</i>
+                           <input type="text" placeholder="search" id="autocomplete-input" class="autocomplete  grey lighten-4" >
+                           </div>
+                         </div>
+                     </div>
+                </div>
+            	</li>
+            	<li><a class="scrollspy white-text " href="#intro">My Cart <i class="material-icons left">add_shopping_cart</i></a></li>             
+     </li> 
+</ul>
+</a>
+</div>
+</nav>
+<ul class="sidenav nf blue lighten-4" id="mobile-nav">
+        <li><a href="index.html"><i class="material-icons right sidenav-close closeb">close</i></a></li>
+        <li><a href="#!">Home <i class="material-icons left">account_balance</i></a></li>
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown9">User<i class="material-icons right">arrow_drop_down</i></a>
+
+      	<ul id="dropdown9" class="dropdown-content">
+
+  			<li><a href="#!" data-activates="shop-category" data-constrainwidth="false">My Profile<i class="material-icons left">account_circle </i></a> </li>
+  			<li><a href="#!">order <i class="material-icons left">add_shopping_cart</i></a></li>
+  			<li class="divider"></li>
+  			<li><a href="#!">wishlist <i class="material-icons left">content_paste</i></a></li>
+  			<li><a href="#!">Rewards <i class="material-icons left">sentiment_very_satisfied</i></a></li>
+  			<li><a href="#!">Gift Cards <i class="material-icons left">card_giftcard</i></a></li>
+  			<li><a href="#!">Notification <i class="material-icons left">alarm_add</i></a></li>
+  			<li><a href="login.html">Login <i class="material-icons left">beenhere</i></a></li>
+  			<li><a href="signup.html">SignUp <i class="material-icons left">border_color</i></a></li>
+		</ul>
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown8">More<i class="material-icons right">arrow_drop_down</i></a>
+      <ul id="dropdown8" class="dropdown-content">
+  			<li><a href="#!">24x7 care<i class="material-icons left">assignment_ind</i></a></li>
+  			<li><a href="#!">Advertise <i class="material-icons left">call_merge</i></a></li>
+  			<li class="divider"></li>
+  			<li><a href="#!">Download<i class="material-icons left">file_download</i></a></li>
+  	</ul>
+  </li>
+      <li>    
+            <div class=" row">
+                <div class="col s12 " >
+                   <div class="row" id="topbarsearch">
+                      <div class="input-field col s6 s12 red-text ">
+                         <i class=" material-icons prefix">search</i>
+                           <input type="text" placeholder="search" id="autocomplete-input" class="autocomplete  grey lighten-4" >
+                           </div>
+                         </div>
+                     </div>
+                </div>        
+           </li>
+           <li><a class="scrollspy  " href="#intro">My Cart <i class="material-icons left">add_shopping_cart</i></a></li>
+    </ul>
+<div class="section"></div>
+  <main>
+    <center>
+      <div class="section"></div>
+      <div class="section"></div>
+
+      <div class="container ">
+        <div class="z-depth-1 grey lighten-4 row card hoverable" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
+
+          <form class="col s12" method="post">
+            <div class='row'>
+              <div class='col s12'>
+              </div>
+            </div>
+
+            <div class='row'>
+              <div class='input-field col s12'>
+                <input class='validate' type='email' name='email' id='email' placeholder="Enter your Email" />
+
+                <label for='email'><i class="material-icons">email</i></label>
+              </div>
+            </div>
+
+            <div class='row'>
+              <div class='input-field col s12'>
+                <input class='validate' type='password' name='password' id='password' placeholder="Enter Password" />
+                <label for='password'><i class="material-icons">create</i></label>
+              </div>
+              <label style='float: right;'>
+								<a class='pink-text' href='#!'><b>Forgot Password?</b></a>
+							</label>
+            </div>
+
+            <br />
+            <center>
+              <div class='row'>
+                <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect indigo'>Login</button>
+              </div>
+            </center>
+          </form>
+        </div>
+      </div>
+      <a href="signup.html">Create account</a>
+    </center>
+
+    <div class="section"></div>
+    <div class="section"></div>
+  </main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+</body>
+</html>

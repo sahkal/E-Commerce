@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-Commerce</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<!-- header -->
+<nav>
+  <div class="nav-wrapper blue lighten-3">
+    <a href="#!" class="brand-logo">E-Commerce</a>
+    <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+    	<i class="material-icons mf">menu</i>
+    <ul class="right hide-on-med-and-down">
+   			<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">USER<i class="material-icons right">arrow_drop_down</i></a>
+           	<ul id="dropdown1" class="dropdown-content">
+  			<li><a href="#!" data-activates="shop-category" data-constrainwidth="false">My Profile<i class="material-icons left">account_circle </i></a> </li>
+  			<li><a href="#!">order <i class="material-icons left">add_shopping_cart</i></a></li>
+  			<li class="divider"></li>
+  			<li><a href="#!">wishlist <i class="material-icons left">content_paste</i></a></li>
+  			<li><a href="#!">Rewards <i class="material-icons left">sentiment_very_satisfied</i></a></li>
+  			<li><a href="#!">Gift Cards <i class="material-icons left">card_giftcard</i></a></li>
+  			<li><a href="#!">Notification <i class="material-icons left">alarm_add</i></a></li>
+  			<li><a href="login.html">Login <i class="material-icons left">beenhere</i></a></li>
+  			<li><a href="signup.html">SignUp <i class="material-icons left">border_color</i></a></li>
+		</ul>
+       </li>
+<li><a class="dropdown-trigger" href="#!" data-target="dropdown3">More<i class="material-icons right">arrow_drop_down</i></a>
+           	<ul id="dropdown3" class="dropdown-content">
+  			<li><a href="#!">24x7 care<i class="material-icons left">assignment_ind</i></a></li>
+  			<li><a href="#!">Advertise <i class="material-icons left">call_merge</i></a></li>
+  			<li class="divider"></li>
+  			<li><a href="#!">Download<i class="material-icons left">file_download</i></a></li>
+		</ul>
+       </li>
+                   <li>
+                  <div class=" row">
+                <div class="col s12 " >
+                   <div class="row" id="topbarsearch">
+                      <div class="input-field col s6 s12 red-text ">
+                         <i class=" material-icons prefix">search</i>
+                           <input type="text" placeholder="search" id="autocomplete-input" class="autocomplete  grey lighten-4" >
+                           </div>
+                         </div>
+                     </div>
+                </div>
+            	</li>
+            	<li><a class="scrollspy white-text " href="#intro">My Cart <i class="material-icons left">add_shopping_cart</i></a></li>             
+     </li> 
+</ul>
+</a>
+</div>
+</nav>
+<ul class="sidenav nf blue lighten-4" id="mobile-nav">
+        <li><a href="#"><i class="material-icons right sidenav-close closeb">close</i></a></li>
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown9">User<i class="material-icons right">arrow_drop_down</i></a>
+      	<ul id="dropdown9" class="dropdown-content">
+  			<li><a href="#!" data-activates="shop-category" data-constrainwidth="false">My Profile<i class="material-icons left">account_circle </i></a> </li>
+  			<li><a href="#!">order <i class="material-icons left">add_shopping_cart</i></a></li>
+  			<li class="divider"></li>
+  			<li><a href="#!">wishlist <i class="material-icons left">content_paste</i></a></li>
+  			<li><a href="#!">Rewards <i class="material-icons left">sentiment_very_satisfied</i></a></li>
+  			<li><a href="#!">Gift Cards <i class="material-icons left">card_giftcard</i></a></li>
+  			<li><a href="#!">Notification <i class="material-icons left">alarm_add</i></a></li>
+  			<li><a href="login.html">Login <i class="material-icons left">beenhere</i></a></li>
+  			<li><a href="signup.html">SignUp <i class="material-icons left">border_color</i></a></li>
+		</ul>
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown8">More<i class="material-icons right">arrow_drop_down</i></a>
+      <ul id="dropdown8" class="dropdown-content">
+  			<li><a href="#!">24x7 care<i class="material-icons left">assignment_ind</i></a></li>
+  			<li><a href="#!">Advertise <i class="material-icons left">call_merge</i></a></li>
+  			<li class="divider"></li>
+  			<li><a href="#!">Download<i class="material-icons left">file_download</i></a></li>
+  	</ul>
+  </li>
+      <li>    
+            <div class=" row">
+                <div class="col s12 " >
+                   <div class="row" id="topbarsearch">
+                      <div class="input-field col s6 s12 red-text ">
+                         <i class=" material-icons prefix">search</i>
+                           <input type="text" placeholder="search" id="autocomplete-input" class="autocomplete  grey lighten-4" >
+                           </div>
+                         </div>
+                     </div>
+                </div>        
+           </li>
+           <li><a class="scrollspy  " href="#intro">My Cart <i class="material-icons left">add_shopping_cart</i></a></li>
+    </ul>
+<!-- sliders -->
+<section>
+	 <div class="carousel carousel-slider center">
+    <div class="carousel-item  white-text" >
+    	<img src="img/1.jpg" class="img-responsive">
+    </div>
+    <div class="carousel-item  white-text" href="img/2.jpg">
+    	<img src="img/2.jpg">
+    </div>
+    <div class="carousel-item  white-text" href="img/3.jpg">
+    	<img src="img/3.jpg">
+    </div>
+    <div class="carousel-item  white-text" href="img/4.jpg">
+    	<img src="img/4.jpg">
+    </div>
+  </div>
+</section>
+<!-- contents -->
+<section>
+	<div class="row">
+          <div class="col s12 m6 l3">
+            <div class="card small hoverable">
+              <div class="card-image">
+                <img src="img/1.jpeg">
+                <span class="card-title">Title</span>
+              </div>
+              <div class="card-content">
+                <p class="center" style="margin-top: -12px;">Dairy Product <br> Price=XXX</p>
+              <div class="card-action center">
+                <a class="waves-effect waves-light btn-small">Add to Cart</a>
+                <a class="waves-effect waves-light btn-small">Buy Now</a>
+              </div>
+            </div></div>
+</div>
+<div class="row">
+          <div class="col s12 m6 l3">
+            <div class="card small hoverable">
+              <div class="card-image">
+                <img src="img/2.jpeg">
+                <span class="card-title">Title</span>
+              </div>
+              <div class="card-content">
+                <p class="center" style="margin-top: -12px;">Watch <br> Price=XXX</p>
+              </div>
+              <div class="card-action center">
+                <a class="waves-effect waves-light btn-small">Add to Cart</a>
+                <a class="waves-effect waves-light btn-small">Buy Now</a>
+              </div>
+            </div>
+</div>
+<div class="row">
+          <div class="col s12 m6 l3">
+            <div class="card small hoverable">
+              <div class="card-image">
+                <img src="img/3.jpeg">
+              </div>
+              <div class="card-content">
+                <p class="center" style="margin-top: -12px;">Blue kurti <br> Price=XXX</p>
+              </div>
+              <div class="card-action center">
+                <a class="waves-effect waves-light btn-small">Add to Cart</a>
+                <a class="waves-effect waves-light btn-small">Buy Now</a>
+              </div>
+            </div>
+</div>
+<div class="row">
+          <div class="col s12 m6 l3">
+            <div class="card small hoverable">
+              <div class="card-image">
+                <img src="img/4.jpeg">
+                <span class="card-title">Title</span>
+              </div>
+              <div class="card-content">
+                <p class="center" style="margin-top: -12px;">red kurti <br> Price=XXX</p>
+              </div>
+              <div class="card-action center">
+                <a class="waves-effect waves-light btn-small">Add to Cart</a>
+                <a class="waves-effect waves-light btn-small">Buy Now</a>
+              </div>
+            </div>
+</div>
+<div class="row">
+          <div class="col s12 m6 l3">
+            <div class="card small hoverable">
+              <div class="card-image">
+                <img src="img/5.jpeg">
+                <span class="card-title">Title</span>
+              </div>
+              <div class="card-content">
+                <p class="center" style="margin-top: -12px;">Rajasthani Bed Sheet <br> Price=XXX</p>
+              </div>
+              <div class="card-action center">
+                <a class="waves-effect waves-light btn-small">Add to Cart</a>
+                <a class="waves-effect waves-light btn-small">Buy Now</a>
+              </div>
+            </div>
+</div>
+<div class="row">
+          <div class="col s12 m6 l3">
+            <div class="card small hoverable">
+              <div class="card-image">
+                <img src="img/6.jpeg">
+                <span class="card-title">Title</span>
+              </div>
+              <div class="card-content">
+                <p class="center" style="margin-top: -12px;">Blue Bedsheet <br> Price=XXX</p>
+              </div>
+              <div class="card-action center">
+                <a class="waves-effect waves-light btn-small">Add to Cart</a>
+                <a class="waves-effect waves-light btn-small">Buy Now</a>
+              </div>
+            </div>
+</div>
+<div class="row">
+          <div class="col s12 m6 l3">
+            <div class="card small hoverable">
+              <div class="card-image">
+                <img src="img/7.jpeg">
+                <span class="card-title">Title</span>
+              </div>
+              <div class="card-content">
+                <p class="center" style="margin-top: -12px;">Bulb <br> Price=XXX</p>
+              </div>
+              <div class="card-action center">
+                <a class="waves-effect waves-light btn-small">Add to Cart</a>
+                <a class="waves-effect waves-light btn-small">Buy Now</a>
+              </div>
+            </div>
+</div>
+<div class="row">
+          <div class="col s12 m6 l3">
+            <div class="card small hoverable">
+              <div class="card-image">
+                <img src="img/8.jpeg">
+                <span class="card-title">Title</span>
+              </div>
+              <div class="card-content">
+                <p class="center" style="margin-top: -12px;">Puma shoes <br> Price=XXX</p>
+              </div>
+              <div class="card-action center">
+                <a class="waves-effect waves-light btn-small">Add to Cart</a>
+                <a class="waves-effect waves-light btn-small">Buy Now</a>
+              </div>
+            </div>
+</section>
+<section style="margin-top: -150px;">
+<div class="row">
+      <div class="col xl6  ">
+      	<div class="card-panel center hoverable">
+      		<i class=" large material-icons">email</i>
+      		<h1>Contact Us</h1>
+      		<p><i class="material-icons">location_on</i>Kalyani, Westbengal</p>
+      	</div>
+      </div>
+      	<div class="col xl6 l5 m12">
+      		<div class="card-panel hoverable">
+      			<form>
+      				<div class="input-field col s12">
+      					<input type="text" name="name" id="user" placeholder="name">
+      					<label for="user"><i class="material-icons">account_circle</i></label></div>
+      					<div class="input-field  col s12">
+      					<input type="text" name="name" id="user" placeholder="Email">
+      					<label for="email"><i class="material-icons">email</i></label></div>
+      					<div class="input-field col s12">
+      					<input type="text" name="name" id="user" placeholder="Message">
+      					<label for="user"><i class="material-icons">message</i></label></div>
+      					<button class="btn">send</button>
+      				</div>
+      			</form>
+      		</div>  
+	</div>
+</section>
+<!--map -->
+<section class="map">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58773.28494568141!2d88.40867583581446!3d22.97487815401683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f895237d8c2c43%3A0xa617faf57fbd04d1!2sKalyani%2C+West+Bengal!5e0!3m2!1sen!2sin!4v1531411110951" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</section>
+<footer class="page-footer blue lighten-2">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4"><p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Payment Options</h5>
+                <ul >
+                  <li style="margin: 5px;"><a class="grey-text text-lighten-3" href="#!"><button class="btn blue darken-2">Internet Banking</button></a></li>
+                  <li style="margin: 5px;"><a class="grey-text text-lighten-3" href="#!"><button class="btn blue darken-2">E Gift Voucher</button></a></li>
+                  <li style="margin: 5px;"><a class="grey-text text-lighten-3" href="#!"><button class="btn blue darken-2">Credit/Debit Cards<</button></a></li>
+                  <li style="margin: 5px;"><a class="grey-text text-lighten-3" href="#!"><button class="btn blue darken-2">Phone Banking</button></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright center">
+            <div class="container">
+            © 2018 Copyright SAHKAL
+            
+            </div>
+          </div>
+        </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/home.js"></script>
+</body>
+</html>

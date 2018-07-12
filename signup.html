@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="css/signup.css">
+</head>
+<body class="blue lighten-5">
+<!--header-->
+<nav>
+  <div class="nav-wrapper blue lighten-3">
+    <a href="#!" class="brand-logo">E-Commerce</a>
+    <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+    	<i class="material-icons mf">menu</i>
+    <ul class="right hide-on-med-and-down">
+    		<li><a href="index.html">Home <i class="material-icons left">account_balance</i></a></li>
+   			<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">USER<i class="material-icons right">arrow_drop_down</i></a>
+           	<ul id="dropdown1" class="dropdown-content">
+  			<li><a href="#!" data-activates="shop-category" data-constrainwidth="false">My Profile<i class="material-icons left">account_circle </i></a> </li>
+  			<li><a href="#!">order <i class="material-icons left">add_shopping_cart</i></a></li>
+  			<li class="divider"></li>
+  			<li><a href="#!">wishlist <i class="material-icons left">content_paste</i></a></li>
+  			<li><a href="#!">Rewards <i class="material-icons left">sentiment_very_satisfied</i></a></li>
+  			<li><a href="#!">Gift Cards <i class="material-icons left">card_giftcard</i></a></li>
+  			<li><a href="#!">Notification <i class="material-icons left">alarm_add</i></a></li>
+  			<li><a href="login.html">Login <i class="material-icons left">beenhere</i></a></li>
+  			<li><a href="signup.html">SignUp <i class="material-icons left">border_color</i></a></li>
+		</ul>
+       </li>
+<li><a class="dropdown-trigger" href="#!" data-target="dropdown3">More<i class="material-icons right">arrow_drop_down</i></a>
+           	<ul id="dropdown3" class="dropdown-content">
+  			<li><a href="#!">24x7 care<i class="material-icons left">assignment_ind</i></a></li>
+  			<li><a href="#!">Advertise <i class="material-icons left">call_merge</i></a></li>
+  			<li class="divider"></li>
+  			<li><a href="#!">Download<i class="material-icons left">file_download</i></a></li>
+		</ul>
+       </li>
+                   <li>
+                  <div class=" row">
+                <div class="col s12 " >
+                   <div class="row" id="topbarsearch">
+                      <div class="input-field col s6 s12 red-text ">
+                         <i class=" material-icons prefix">search</i>
+                           <input type="text" placeholder="search" id="autocomplete-input" class="autocomplete  grey lighten-4" >
+                           </div>
+                         </div>
+                     </div>
+                </div>
+            	</li>
+            	<li><a class="scrollspy white-text " href="#intro">My Cart <i class="material-icons left">add_shopping_cart</i></a></li>             
+     </li> 
+</ul>
+</a>
+</div>
+</nav>
+<ul class="sidenav nf blue lighten-4" id="mobile-nav">
+        <li><a href="index.html"><i class="material-icons right sidenav-close closeb">close</i></a></li>
+        <li><a href="index.html">Home <i class="material-icons left">account_balance</i></a></li>
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown9">User<i class="material-icons right">arrow_drop_down</i></a>
+
+      	<ul id="dropdown9" class="dropdown-content">
+
+  			<li><a href="#!" data-activates="shop-category" data-constrainwidth="false">My Profile<i class="material-icons left">account_circle </i></a> </li>
+  			<li><a href="#!">order <i class="material-icons left">add_shopping_cart</i></a></li>
+  			<li class="divider"></li>
+  			<li><a href="#!">wishlist <i class="material-icons left">content_paste</i></a></li>
+  			<li><a href="#!">Rewards <i class="material-icons left">sentiment_very_satisfied</i></a></li>
+  			<li><a href="#!">Gift Cards <i class="material-icons left">card_giftcard</i></a></li>
+  			<li><a href="#!">Notification <i class="material-icons left">alarm_add</i></a></li>
+  			<li><a href="login.html">Login <i class="material-icons left">beenhere</i></a></li>
+  			<li><a href="signup.html">SignUp <i class="material-icons left">border_color</i></a></li>
+		</ul>
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown8">More<i class="material-icons right">arrow_drop_down</i></a>
+      <ul id="dropdown8" class="dropdown-content">
+  			<li><a href="#!">24x7 care<i class="material-icons left">assignment_ind</i></a></li>
+  			<li><a href="#!">Advertise <i class="material-icons left">call_merge</i></a></li>
+  			<li class="divider"></li>
+  			<li><a href="#!">Download<i class="material-icons left">file_download</i></a></li>
+  	</ul>
+  </li>
+      <li>    
+            <div class=" row">
+                <div class="col s12 " >
+                   <div class="row" id="topbarsearch">
+                      <div class="input-field col s6 s12 red-text ">
+                         <i class=" material-icons prefix">search</i>
+                           <input type="text" placeholder="search" id="autocomplete-input" class="autocomplete  grey lighten-4" >
+                           </div>
+                         </div>
+                     </div>
+                </div>        
+           </li>
+           <li><a class="scrollspy  " href="#intro">My Cart <i class="material-icons left">add_shopping_cart</i></a></li>
+    </ul>
+
+	<section class="row signup-section " style="margin-top: 150px;">
+        <div class="col offset-s1 s10 offset-m2 m8 offset-l3 l6">
+          <div class="row" id="box">
+            <div class="col s12">
+              <form class="col s12 z-depth-5 white lighten-5">
+                <div class="row ">
+                  <div class="input-field col s12 m6 l6 xl6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input type="text" id="firstname" class="black-text validate">
+                    <label class="active"  for="firstname">First Name</label>
+                  </div>
+                  <div class="input-field col s12 m6 l6 xl6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input type="text" id="lastname" class="black-text validate">
+                    <label class="active" for="lastname">Last Name</label>
+                  </div>
+                  <div class="input-field col s12 m6 l6 xl6">
+                    <i class="material-icons prefix">email</i>
+                    <input type="email" id="email" class="black-text validate">
+                    <label class="active" for="email">Email</label>
+                  </div>
+                  <div class="input-field col s12 m6 l6 xl6">
+                    <i class="material-icons prefix">person</i>
+                    <input type="text" id="username" class="black-text  validate">
+                    <label class="active" for="username">User Name</label>
+                  </div>
+                  <div class="input-field col s12 m6 l6 xl6">
+                    <i class="material-icons prefix">lock</i>
+                    <input type="password" id="password" class="black-text validate">
+                    <label class="active" for="password">Password</label>
+                    </div>
+                  <div class="input-field col s12 m6 l6 x16">
+                    <i class="material-icons prefix">lock</i>
+                    <input type="password" class="black-text  validate">
+                    <label class="active">Confirm Password</label>
+                  </div>
+                </div>
+                <div class="row ">
+                  <div class="col s16 m12 20 x16 ">
+                    <button class="btn blue lighten-2 z-depth-5 center col s12 waves-effect waves-light" id="color"style="margin: 5px;">Sign Up</button>
+                   <button  class="btn blue lighten-2 z-depth-5 center col s12 waves-effect waves-light" id="color" style="margin: 5px;"><a href="login.html" class="white-text"> Sign In</a></button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/signup.js"></script>
+</body>
+</html>
